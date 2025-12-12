@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume & Bio-data</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" class="nav-link active" data-page="home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#" class="nav-link" data-page="resume"><i class="fas fa-file-alt"></i> Resume</a></li>
+            <li><a href="#" class="nav-link" data-page="biodata"><i class="fas fa-user"></i> Bio-data</a></li>
+            <li><a href="#" class="nav-link" data-page="contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div id="home" class="page active">
+            <div class="intro">
+                <h1>Welcome! <span class="wave">👋</span></h1>
+                <p>This is my personal Resume & Bio-data website</p>
+            </div>
+            <h2>Hello, I'm Nandan K S</h2>
+            <p>A passionate student and aspiring web developer with a strong interest in creating beautiful and
+                functional websites. I love learning new technologies and solving challenging problems.</p>
+            <div class="center-content">
+                <button class="btn" onclick="showPage('resume')"><i class="fas fa-file-alt"></i> View My Resume</button>
+                <button class="btn" onclick="showPage('biodata')"><i class="fas fa-user"></i> View My Bio-data</button>
+            </div>
+            <h3 style="margin-top: 2rem;">Key Highlights</h3>
+            <ul class="feature-list">
+                <li>Strong knowledge of HTML, CSS, and JavaScript</li>
+                <li>Quick learner with good problem-solving skills</li>
+                <li>Enthusiastic about web development and design</li>
+                <li>Excellent communication and teamwork abilities</li>
+            </ul>
+        </div>
+        <div id="resume" class="page">
+            <h1><i class="fas fa-file-alt"></i> My Resume</h1>
+            <h2>Education</h2>
+            <div class="item">
+                <div class="item-title">Bachelor of Engineering in Computer Science Engineering</div>
+                <div class="item-subtitle">MIT Kundapura | 2025 - Present</div>
+                <div class="item-description">Currently pursuing degree with focus on web development and software
+                    engineering.</div>
+            </div>
+            <div class="item">
+                <div class="item-title">Higher Secondary School</div>
+                <div class="item-subtitle">Rotary P.U College | 2021 - 2023</div>
+                <div class="item-description">Completed with strong marks in Mathematics and Science subjects.</div>
+            </div>
+            <h2>Work Experience</h2>
+            <div class="item">
+                <div class="item-title">Web Development Intern</div>
+                <div class="item-subtitle">XYZ Tech Company | June 2024 - August 2024</div>
+                <div class="item-description">• Created responsive websites using HTML, CSS, and JavaScript<br>• Fixed
+                    bugs and improved website performance<br>• Collaborated with senior developers on real-world
+                    projects</div>
+            </div>
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h4>HTML5</h4>
+                    <p>Clean markup and semantic page layout</p>
+                </div>
+                <div class="skill-card">
+                    <h4>CSS3</h4>
+                    <p>Modern styling with adaptive layouts</p>
+                </div>
+                <div class="skill-card">
+                    <h4>JavaScript</h4>
+                    <p>Dynamic content and event-driven programming</p>
+                </div>
+                <div class="skill-card">
+                    <h4>jQuery</h4>
+                    <p>Streamlined scripting with reusable functions</p>
+                </div>
+                <div class="skill-card">
+                    <h4>Git & GitHub</h4>
+                    <p>Efficient code tracking and team collaboration</p>
+                </div>
+                <div class="skill-card">
+                    <h4>Problem Solving</h4>
+                    <p>Analytical approach and effective debugging</p>
+                </div>
+            </div>
+            <h2>Achievements</h2>
+            <ul class="feature-list">
+                <li>Completed 4+ web development projects</li>
+                <li>Published 2 technical blog posts on web development</li>
+            </ul>
+        </div>
+        <div id="biodata" class="page">
+            <h1><i class="fas fa-user-circle"></i> Personal Bio-data</h1>
+            <h2>Personal Information</h2>
+            <div class="info-grid">
+                <div class="info-box"><strong>Full Name:</strong><span>Nandan K S</span></div>
+                <div class="info-box"><strong>Date of Birth:</strong><span>May 24, 2005</span></div>
+                <div class="info-box"><strong>Gender:</strong><span>Male</span></div>
+                <div class="info-box    "><strong>Nationality:</strong><span>Indian</span></div>
+                <div class="info-box"><strong>Religion:</strong><span>Hindu</span></div>
+                <div class="info-box"><strong>Marital Status:</strong><span>Single</span></div>
+            </div>
+            <h2>Contact Information</h2>
+            <div class="info-grid">
+                <div class="info-box"><strong>Email:</strong><span>nandanshivamoggi@gmail.com</span></div>
+                <div class="info-box"><strong>Phone:</strong><span>+91 9876543210</span></div>
+                <div class="info-box"><strong>Address:</strong><span>Ranebennur,Haveri,Karnataka, India</span></div>
+                <div class="info-box"><strong>LinkedIn:</strong><span><a href="#"
+                            class="link">www.linkedin.com/in/nandan-k-shivamoggi</a></span></div>
+            </div>
+            <h2>Languages Known</h2>
+            <ul class="feature-list">
+                <li><strong>English:</strong> Fluent (Written & Spoken)</li>
+                <li><strong>Kannada:</strong> Fluent (Written & Spoken)</li>
+                <li><strong>Hindi:</strong> Intermediate (Spoken)</li>
+            </ul>
+            <h2>Hobbies & Interests</h2>
+            <ul class="feature-list">
+                <li>Web Development and Coding</li>
+                <li>Fitness and Outdoor Activities</li>
+                <li>Watching Mythological Stories like Mahabharat</li>
+
+                <li>Mobile Gaming and Esports</li>
+            </ul>
+
+        </div>
+        <div id="contact" class="page">
+            <h1><i class="fas fa-paper-plane"></i> Get In Touch</h1>
+            <p class="section-desc">Feel free to reach out to me! I'd love to hear from you.</p>
+            <div class="info-grid">
+                <div class="info-box"><strong><i class="fas fa-envelope"></i>
+                        Email</strong><span>nandanshivamoggi@gmail.com</span></div>
+                <div class="info-box"><strong><i class="fas fa-phone"></i> Phone</strong><span>+91 9876543210</span>
+                </div>
+                <div class="info-box"><strong><i class="fas fa-map-marker-alt"></i>
+                        Location</strong><span>Ranebennur,Haveri,
+                        Karnataka, India</span></div>
+            </div>
+            <h2>Send Me a Message</h2>
+            <form onsubmit="handleSubmit(event)">
+                <div><label for="name">Your Name:</label><input type="text" id="name" required></div>
+                <div><label for="email">Your Email:</label><input type="email" id="email" required></div>
+                <div><label for="message">Message:</label><textarea id="message" rows="5" required></textarea></div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <h2>Connect With Me</h2>
+            <p>
+                <a href="https://www.linkedin.com/in/nandan-k-shivamoggi" class="social-link" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/NandanKS123" class="social-link" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://twitter.com/yourusername" class="social-link" target="_blank">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a>
+            </p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Nandan K S | My Resume & Bio-data Website</p>
+        <p>Built with HTML, CSS, and JavaScript</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
